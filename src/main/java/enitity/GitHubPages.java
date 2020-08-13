@@ -7,7 +7,11 @@ public enum GitHubPages {
 
     MAIN("%s"),
     LOGIN("%s/login"),
-    VERIFIED_DEVICE("%s/sessions/verified-device");
+    VERIFIED_DEVICE("%s/sessions/verified-device"),
+    SEARCH("%s/search"),
+    JOIN("%s/join"),
+    ABOUT("%s/about");
+
 
     private final String name;
 

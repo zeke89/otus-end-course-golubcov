@@ -2,7 +2,6 @@ import io.qameta.allure.Severity;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.VerifiedDevicePage;
-import utils.GitHubProperties;
 
 import static io.qameta.allure.SeverityLevel.CRITICAL;
 import static utils.GitHubProperties.properties;
